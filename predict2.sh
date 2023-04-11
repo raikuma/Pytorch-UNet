@@ -1,0 +1,2 @@
+#!/bin/bash
+python predict.py --model ./checkpoints/checkpoint_epoch10.pth --scale 1 --classes 1 -i /home/ciplab/Downloads/extra_ours5r20_v0_testset_full_300000/render/$1 -o /home/ciplab/Downloads/extra_ours5r20_v0_testset_full_300000/mask/$1

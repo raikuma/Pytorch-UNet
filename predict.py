@@ -109,6 +109,7 @@ if __name__ == '__main__':
         if not args.no_save:
             out_filename = out_files[i]
             result = mask_to_image(mask, mask_values)
+            os.makedirs(os.path.dirname(out_filename), exist_ok=True)
             result.save(out_filename)
             logging.info(f'Mask saved to {out_filename}')
 

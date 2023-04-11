@@ -1,0 +1,1 @@
+python train.py --batch-size 8 --scale 1 --classes 1 --epochs 20 --amp
